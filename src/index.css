@@ -1,0 +1,28 @@
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family:
+        -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+        sans-serif;
+    margin: auto;
+    max-width: 38rem;
+    padding: 2rem;
+    transition:
+        background-color 120ms ease-in-out,
+        color 120ms ease-in-out;
+}
+
+select {
+    margin-top: 0.25rem;
+    padding: 0.25rem;
+}
+
+:root {
+    --background-color: #ffffff;
+    --text-color: #111827;
+}
+
+:root[data-theme='dark'] {
+    --background-color: #111827;
+    --text-color: #f3f4f6;
+}
